@@ -1,5 +1,7 @@
+
 # GZML Visual Tools
 
+<img width="595" height="490" alt="Screenshot_25-May_23-02-49_2058" src="https://github.com/user-attachments/assets/6e4314d4-7334-4b15-bf9e-a2e90ef57878" />
 GZML Visual Tools is a lightweight system tray application for Hyprland that provides quick access to visual customization features without requiring users to constantly edit configuration files.
 
 The project was originally built for my own desktop workflow but has since grown into a modular customization toolkit focused on Hyprland's modern Lua configuration system.
@@ -19,13 +21,14 @@ Most functionality is handled through small, readable scripts that can easily be
 The long-term goal is to provide a centralized visual management utility for Hyprland while remaining lightweight, modular, and easy to customize.
 
 ---
-
+<img width="687" height="805" alt="Screenshot_25-May_23-02-57_27444" src="https://github.com/user-attachments/assets/bc24cd98-2446-42a9-9ffb-bf04c20267fd" />
 ## Why GZML Visual Tools?
 
 Many Hyprland users enjoy tweaking their desktops, but even simple changes often require:
 
 - Editing configuration files
 - Reloading Hyprland
+
 - Remembering configuration syntax
 - Searching through multiple folders
 
@@ -93,7 +96,7 @@ Level 5
 ```
 
 ---
-
+<img width="853" height="741" alt="Screenshot_25-May_23-03-56_24873" src="https://github.com/user-attachments/assets/4c6ad1eb-b7a6-4a47-b265-d58b7e7c0bf4" />
 ### 🔲 Border Controls
 
 Adjust Hyprland border size without manually editing configuration files.
@@ -251,6 +254,7 @@ Status: Work In Progress
 - Better support for non-Noctalia environments
 
 ---
+<img width="2560" height="1440" alt="Screenshot_25-May_23-03-38_20800" src="https://github.com/user-attachments/assets/dc4f5f03-4b90-47e5-ad10-8c7a0ce2d9f0" />
 
 # License
 
