@@ -1,7 +1,7 @@
 
 # GZML Visual Tools
+<img width="1043" height="602" alt="Screenshot_25-May_23-07-02_18259" src="https://github.com/user-attachments/assets/f2dad8be-f35a-411c-bf0f-924fae383e8e" />
 
-<img width="595" height="490" alt="Screenshot_25-May_23-02-49_2058" src="https://github.com/user-attachments/assets/6e4314d4-7334-4b15-bf9e-a2e90ef57878" />
 GZML Visual Tools is a lightweight system tray application for Hyprland that provides quick access to visual customization features without requiring users to constantly edit configuration files.
 
 The project was originally built for my own desktop workflow but has since grown into a modular customization toolkit focused on Hyprland's modern Lua configuration system.
