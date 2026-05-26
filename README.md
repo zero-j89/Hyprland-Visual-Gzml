@@ -287,3 +287,6 @@ Until an official license is chosen, please provide credit to the original proje
 >
 > GZML Visual Tools is currently in active development.
 > Expect bugs, rough edges, and occasional breaking changes between versions.
+
+
+5/26/26 - Fixed animations path in gzml-tray.py had accidently left testing logic to my personal system.
