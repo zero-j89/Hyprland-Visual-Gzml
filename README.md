@@ -37,53 +37,7 @@ Instead of editing configuration files every time you want to experiment, most a
 
 ## Current Features
 
-### 🎞 Animation Presets
-
-Quickly switch between Hyprland animation profiles.
-
-Examples:
-
-- Smooth
-- Fast
-- Minimal
-- Custom community presets
-
-Features:
-
-- Active preset indicators
-- One-click switching
-- One-click Hyprland reload
-- User-expandable preset system
-
-Simply drop additional animation presets into:
-
-```text
-presets/animations/
-```
-
-and they automatically appear in the menu.
-
 ---
-
-
-
-### 📦 Preset Injector
-
-Import new content without manually sorting files.
-
-Supported categories:
-
-- Animations
-- Wallpaper Effects
-- Themes (Coming Soon!)
-- Tools
-
-This system is intended to make future community-created presets easier to share and install.
-
----
----
-
-## Features
 
 ### 🎞 Animations
 
