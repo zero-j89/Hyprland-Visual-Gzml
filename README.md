@@ -167,11 +167,7 @@ Example using the Hyprland Lua startup system:
 
 ```lua
 hl.on("hyprland.start", function()
-    hl.exec_cmd(
-        "python3 " ..
-        os.getenv("HOME") ..
-        "/Projects/gzml-plugin/gzml-visual-tools/gzml-tray.py"
-    )
+   hl.exec_cmd(os.getenv("HOME") .. "/Projects/gzml-plugin/gzml-visual-tools/gzml-tray.py")
 end)
 ```
 
