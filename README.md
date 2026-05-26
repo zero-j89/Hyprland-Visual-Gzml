@@ -22,7 +22,8 @@ Most functionality is handled through small, readable scripts that can easily be
 The long-term goal is to provide a centralized visual management utility for Hyprland while remaining lightweight, modular, and easy to customize.
 
 ---
-<img width="687" height="805" alt="Screenshot_25-May_23-02-57_27444" src="https://github.com/user-attachments/assets/bc24cd98-2446-42a9-9ffb-bf04c20267fd" />
+<img width="1038" height="1081" alt="Screenshot_25-May_23-08-56_15981" src="https://github.com/user-attachments/assets/3cd6de8c-e84c-4f93-a656-3fa1a9a21637" />
+
 ## Why GZML Visual Tools?
 
 Many Hyprland users enjoy tweaking their desktops, but even simple changes often require:
@@ -53,6 +54,7 @@ Load and switch between Hyprland animation presets directly from the tray.
 - Easy preset expansion
 
 ---
+<img width="1114" height="1075" alt="Screenshot_25-May_23-09-05_25541" src="https://github.com/user-attachments/assets/f3ae0a1f-3346-4078-8330-712fc5343ec5" />
 
 ### 🖼 Wallpaper Effects
 
@@ -80,6 +82,7 @@ Current effects include:
 Wallpaper effects are self-contained scripts and can easily be modified, replaced, or expanded by users.
 
 ---
+<img width="1174" height="990" alt="Screenshot_25-May_23-09-16_31430" src="https://github.com/user-attachments/assets/4e2cd2aa-bdf1-4a3a-8a9d-063aff630b16" />
 
 ### 🌫 Blur Controls
 
