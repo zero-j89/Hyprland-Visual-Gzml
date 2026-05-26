@@ -256,6 +256,22 @@ Status: Work In Progress
 ---
 <img width="2560" height="1440" alt="Screenshot_25-May_23-03-38_20800" src="https://github.com/user-attachments/assets/dc4f5f03-4b90-47e5-ad10-8c7a0ce2d9f0" />
 
+## Quick Install
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/zero-j89/Hyprland-Visual-Gzml/main/installer/install.sh)
+```
+
+
+Or.
+
+```bash
+git clone https://github.com/zero-j89/Hyprland-Visual-Gzml.git
+cd Hyprland-Visual-Gzml
+chmod +x installer/install.sh
+./installer/install.sh
+```
+
 # License
 
 License selection is still pending.
