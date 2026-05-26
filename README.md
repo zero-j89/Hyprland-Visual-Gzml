@@ -162,7 +162,6 @@ dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/blur.lua")
 Place each include at the end of the corresponding file.
 ```
 
-This should generally be placed at the end of your decorations configuration so GZML overrides are applied last.
 
 ---
 
