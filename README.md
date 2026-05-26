@@ -1,9 +1,86 @@
 # GZML Visual Tools
 
-A lightweight Hyprland tray utility built around the new Lua configuration system.
+GZML Visual Tools is a lightweight system tray application for Hyprland that provides quick access to visual customization features without requiring users to constantly edit configuration files.
 
-GZML Visual Tools provides quick access to visual customization features directly from your system tray without constantly editing configuration files by hand.
+The project was originally built for my own desktop workflow but has since grown into a modular customization toolkit focused on Hyprland's modern Lua configuration system.
 
+Using the tray menu, users can:
+
+- Switch animation presets
+- Apply wallpaper effects
+- Adjust blur intensity
+- Adjust border sizes
+- Import custom presets
+- Reload Hyprland
+- Manage visual settings from a single location
+
+Most functionality is handled through small, readable scripts that can easily be modified or expanded by users.
+
+The long-term goal is to provide a centralized visual management utility for Hyprland while remaining lightweight, modular, and easy to customize.
+
+---
+
+## Why GZML Visual Tools?
+
+Many Hyprland users enjoy tweaking their desktops, but even simple changes often require:
+
+- Editing configuration files
+- Reloading Hyprland
+- Remembering configuration syntax
+- Searching through multiple folders
+
+GZML Visual Tools reduces that friction by exposing commonly modified visual settings through an easy-to-access tray interface.
+
+Instead of editing configuration files every time you want to experiment, most actions can be performed directly from the tray.
+
+---
+
+## Current Features
+
+### 🎞 Animation Presets
+
+Quickly switch between Hyprland animation profiles.
+
+Examples:
+
+- Smooth
+- Fast
+- Minimal
+- Custom community presets
+
+Features:
+
+- Active preset indicators
+- One-click switching
+- One-click Hyprland reload
+- User-expandable preset system
+
+Simply drop additional animation presets into:
+
+```text
+presets/animations/
+```
+
+and they automatically appear in the menu.
+
+---
+
+
+
+### 📦 Preset Injector
+
+Import new content without manually sorting files.
+
+Supported categories:
+
+- Animations
+- Wallpaper Effects
+- Themes (Coming Soon!)
+- Tools
+
+This system is intended to make future community-created presets easier to share and install.
+
+---
 ---
 
 ## Features
@@ -103,6 +180,7 @@ Supports:
 
 - Noctalia Shell
 - AWWW
+- GZML Shell
 
 ---
 
