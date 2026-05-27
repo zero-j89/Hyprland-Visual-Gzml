@@ -22,7 +22,8 @@ Most functionality is handled through small, readable scripts that can easily be
 The long-term goal is to provide a centralized visual management utility for Hyprland while remaining lightweight, modular, and easy to customize.
 
 ---
-<img width="1038" height="1081" alt="Screenshot_25-May_23-08-56_15981" src="https://github.com/user-attachments/assets/3cd6de8c-e84c-4f93-a656-3fa1a9a21637" />
+<img width="908" height="1440" alt="Screenshot_27-May_15-59-33_29636" src="https://github.com/user-attachments/assets/c6115390-037e-425b-ad34-d799c1082688" />
+
 
 ## Why GZML Visual Tools?
 
