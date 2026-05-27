@@ -1,5 +1,5 @@
 
-# GZML Visual Tools
+# GZML Visual Tools  - v0.02 Is Now Live! 
 <img width="941" height="800" alt="Screenshot_25-May_23-08-19_13914" src="https://github.com/user-attachments/assets/7ec0ad9c-c2d3-439b-97e9-2a21649c6cf0" />
 
 
@@ -52,6 +52,7 @@ Load and switch between Hyprland animation presets directly from the tray.
 - One-click Hyprland reload
 - Lua preset support
 - Easy preset expansion
+- Now comes pre-loaded with a bunch of animations!
 
 ---
 <img width="1114" height="1075" alt="Screenshot_25-May_23-09-05_25541" src="https://github.com/user-attachments/assets/f3ae0a1f-3346-4078-8330-712fc5343ec5" />
@@ -159,8 +160,7 @@ dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/animations.lua")
 Decorations:
 dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/blur.lua")
 
-Place each include at the end of the corresponding file.
-```
+Place both at the end of the coressponding file/s
 
 
 ---
@@ -261,13 +261,6 @@ Status: Work In Progress
 <img width="2560" height="1440" alt="Screenshot_25-May_23-03-38_20800" src="https://github.com/user-attachments/assets/dc4f5f03-4b90-47e5-ad10-8c7a0ce2d9f0" />
 
 ## Quick Install
-
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/zero-j89/Hyprland-Visual-Gzml/main/installer/install.sh)
-```
-
-
-Or.
 
 ```bash
 git clone https://github.com/zero-j89/Hyprland-Visual-Gzml.git
