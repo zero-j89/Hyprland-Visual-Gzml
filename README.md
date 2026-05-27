@@ -227,7 +227,7 @@ GZML Visual Tools started as a personal learning project to explore:
 
 - Python
 - GTK
-- Hyprland Lua
+- .Lua
 - Linux desktop customization
 
 while creating something useful for both myself and the wider Hyprland community.
