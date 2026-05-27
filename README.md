@@ -1,5 +1,5 @@
 
-# GZML Visual Tools  - v0.02 Is Now Live! 
+# GZML Visual Tools  - v0.2 Is Now Live! 
 <img width="941" height="800" alt="Screenshot_25-May_23-08-19_13914" src="https://github.com/user-attachments/assets/7ec0ad9c-c2d3-439b-97e9-2a21649c6cf0" />
 
 
