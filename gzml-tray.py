@@ -396,7 +396,7 @@ hl.config({{
         self.clear_menu(menu)
 
         lines = [
-            "GZML 2026 v0.1",
+            "GZML 2026 v0.2",
             "Git zer0-j89 W.I.P",
             "GTK/AppIndicator tray",
             "Hyprland Lua support",

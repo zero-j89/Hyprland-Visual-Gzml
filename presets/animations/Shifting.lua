@@ -26,10 +26,10 @@ hl.curve("winOut", {
   },
 })
 
-hl.curve("liner", {
+hl.curve("linear", {
   type = "bezier",
   points = {
-    { 1, 1 },
+    { 0, 0 },
     { 1, 1 },
   },
 })
@@ -70,14 +70,14 @@ hl.animation({
   leaf = "border",
   enabled = true,
   speed = 1,
-  bezier = "liner",
+  bezier = "linear",
 })
 
 hl.animation({
   leaf = "borderangle",
   enabled = true,
   speed = 30,
-  bezier = "liner",
+  bezier = "linear",
   style = "once",
 })
 
@@ -85,7 +85,7 @@ hl.animation({
   leaf = "fade",
   enabled = true,
   speed = 10,
-  bezier = "default",
+  bezier = "linear",
 })
 
 hl.animation({

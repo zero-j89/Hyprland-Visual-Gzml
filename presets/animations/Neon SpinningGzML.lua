@@ -1,15 +1,52 @@
 hl.config({
   general = {
-    border_size = 3,
+    gaps_in = 5,
+    gaps_out = 5,
+    border_size = 2,
+    resize_on_border = true,
+    allow_tearing = false,
+  },
 
-    col = {
-      active_border = "rgb(8A2BE2)",
-      inactive_border = "rgb(1a1a2e)",
+  decoration = {
+    rounding = 10,
+    active_opacity = 1.0,
+    inactive_opacity = 1.0,
+
+    blur = {
+      enabled = false,
+      size = 3,
+      passes = 2,
+      new_optimizations = true,
+      vibrancy = 0.1696,
+      ignore_opacity = true,
     },
   },
 
   animations = {
     enabled = true,
+  },
+
+  dwindle = {
+    preserve_split = true,
+  },
+
+  master = {
+    new_status = "master",
+    new_on_top = true,
+  },
+
+  misc = {
+    force_default_wallpaper = 0,
+    disable_hyprland_logo = true,
+    disable_splash_rendering = true,
+  },
+})
+
+hl.curve("default", {
+  type = "bezier",
+  points = {
+    { 0.05, 0.9 },
+    { 0.1, 1.05 },
   },
 })
 
@@ -21,108 +58,56 @@ hl.curve("linear", {
   },
 })
 
-hl.curve("fluent_decel", {
+hl.curve("almostLinear", {
   type = "bezier",
   points = {
-    { 0, 0.2 },
-    { 0.4, 1 },
+    { 0.5, 0.5 },
+    { 0.75, 1 },
   },
 })
 
-hl.curve("easeOutCirc", {
+hl.curve("quick", {
   type = "bezier",
   points = {
-    { 0, 0.55 },
-    { 0.45, 1 },
+    { 0.15, 0 },
+    { 0.1, 1 },
   },
 })
 
-hl.curve("easeOutCubic", {
+hl.curve("easeOutQuint", {
   type = "bezier",
   points = {
-    { 0.33, 1 },
-    { 0.68, 1 },
+    { 0.23, 1 },
+    { 0.32, 1 },
   },
 })
 
-hl.curve("easeinoutsine", {
-  type = "spring",
-  mass = 1,
-  stiffness = 62,
-  dampening = 8,
+hl.curve("easeInOutCubic", {
+  type = "bezier",
+  points = {
+    { 0.65, 0.05 },
+    { 0.36, 1 },
+  },
 })
 
-hl.animation({
-  leaf = "windowsIn",
-  enabled = true,
-  speed = 2,
-  spring = "easeinoutsine",
-  style = "popin 60%",
-})
+hl.animation({ leaf = "global", enabled = true, speed = 10, bezier = "default" })
+hl.animation({ leaf = "border", enabled = true, speed = 1, bezier = "linear" })
 
-hl.animation({
-  leaf = "windowsOut",
-  enabled = true,
-  speed = 2,
-  bezier = "easeOutCubic",
-  style = "popin 60%",
-})
+hl.animation({ leaf = "windows", enabled = true, speed = 4.79, bezier = "easeOutQuint" })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 4.1, bezier = "easeOutQuint", style = "popin 87%" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 1.49, bezier = "linear", style = "popin 87%" })
 
-hl.animation({
-  leaf = "windowsMove",
-  enabled = true,
-  speed = 2,
-  spring = "easeinoutsine",
-  style = "slide",
-})
+hl.animation({ leaf = "fadeIn", enabled = true, speed = 1.73, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeOut", enabled = true, speed = 1.46, bezier = "almostLinear" })
+hl.animation({ leaf = "fade", enabled = true, speed = 3.03, bezier = "quick" })
 
-hl.animation({
-  leaf = "fade",
-  enabled = true,
-  speed = 3,
-  bezier = "fluent_decel",
-})
+hl.animation({ leaf = "layers", enabled = true, speed = 3.81, bezier = "easeOutQuint" })
+hl.animation({ leaf = "layersIn", enabled = true, speed = 4, bezier = "easeOutQuint", style = "fade" })
+hl.animation({ leaf = "layersOut", enabled = true, speed = 1.5, bezier = "linear", style = "fade" })
 
-hl.animation({
-  leaf = "fadeLayersIn",
-  enabled = false,
-})
+hl.animation({ leaf = "fadeLayersIn", enabled = true, speed = 1.79, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeLayersOut", enabled = true, speed = 1.39, bezier = "almostLinear" })
 
-hl.animation({
-  leaf = "border",
-  enabled = true,
-  speed = 6,
-  bezier = "fluent_decel",
-})
-
-hl.animation({
-  leaf = "borderangle",
-  enabled = true,
-  speed = 60,
-  bezier = "linear",
-  style = "loop",
-})
-
-hl.animation({
-  leaf = "layers",
-  enabled = true,
-  speed = 2,
-  spring = "easeinoutsine",
-  style = "popin",
-})
-
-hl.animation({
-  leaf = "workspaces",
-  enabled = true,
-  speed = 4,
-  bezier = "fluent_decel",
-  style = "slidefadevert 30%",
-})
-
-hl.animation({
-  leaf = "specialWorkspace",
-  enabled = true,
-  speed = 3,
-  bezier = "fluent_decel",
-  style = "slidefade 10%",
-})
+hl.animation({ leaf = "workspaces", enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesIn", enabled = true, speed = 1.21, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesOut", enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
