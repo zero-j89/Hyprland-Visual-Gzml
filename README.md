@@ -240,7 +240,7 @@ This project remains a work in progress and will continue evolving as I learn.
 
 ```text
 GZML Visual Tools
-Version: 0.1
+Version: 0.2
 Author: zer0-j89
 Status: Work In Progress
 ```
