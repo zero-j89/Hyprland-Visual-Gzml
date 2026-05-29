@@ -27,7 +27,7 @@ hl.config({
 
 hl.curve("quantum_in", { type = "bezier", points = { {0.05, 1.25}, {0.22, -0.3} } })
 hl.curve("quantum_out", { type = "bezier", points = { {0.55, -0.65}, {0.9, 0.12} } })
-hl.curve("drift", { type = "spring", mass = 1.0, stiffness = 72, dampening = 5 })
+hl.curve("drift", { type = "spring", mass = 1.0, stiffness = 72, dampening = 15 })
 hl.curve("settle", { type = "spring", mass = 0.8, stiffness = 95, dampening = 7 })
 
 hl.animation({ leaf = "global", enabled = true, speed = 8, spring = "settle" })
