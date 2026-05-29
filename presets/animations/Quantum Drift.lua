@@ -31,10 +31,10 @@ hl.curve("drift", { type = "spring", mass = 1.0, stiffness = 72, dampening = 15 
 hl.curve("settle", { type = "spring", mass = 0.8, stiffness = 95, dampening = 7 })
 
 hl.animation({ leaf = "global", enabled = true, speed = 8, spring = "settle" })
-hl.animation({ leaf = "windows", enabled = true, speed = 7, spring = "drift", style = "slide" })
-hl.animation({ leaf = "windowsIn", enabled = true, speed = 9, bezier = "quantum_in", style = "popin 35%" })
-hl.animation({ leaf = "windowsOut", enabled = true, speed = 7, bezier = "quantum_out", style = "popin 15%" })
-hl.animation({ leaf = "windowsMove", enabled = true, speed = 9, spring = "settle", style = "slide" })
+hl.animation({ leaf = "windows", enabled = true, speed = 5, spring = "drift", style = "slide" })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 12, bezier = "quantum_in", style = "popin 35%" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 10, bezier = "quantum_out", style = "popin 15%" })
+hl.animation({ leaf = "windowsMove", enabled = true, speed = 15, spring = "settle", style = "slide" })
 
 hl.animation({ leaf = "fadeIn", enabled = true, speed = 5, bezier = "quantum_in" })
 hl.animation({ leaf = "fadeOut", enabled = true, speed = 4, bezier = "quantum_out" })
