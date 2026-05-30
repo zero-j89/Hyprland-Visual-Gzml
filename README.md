@@ -283,4 +283,5 @@ Until an official license is chosen, please provide credit to the original proje
 
 
 5/26/26 - Fixed animations path in gzml-tray.py had accidently left testing logic to my personal system.
+
 5/29/26 - v0.35 now live! fixed a bunch of logic + added notifications to the users terminal as checks. - Added several new animations including QuantumDrift and PopSlideNstall
