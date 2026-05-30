@@ -1,5 +1,5 @@
 
-# GZML Visual Tools  - v0.2 Is Now Live! 
+# GZML Visual Tools  - v0.35 Is Now Live! 
 <img width="941" height="800" alt="Screenshot_25-May_23-08-19_13914" src="https://github.com/user-attachments/assets/7ec0ad9c-c2d3-439b-97e9-2a21649c6cf0" />
 
 
@@ -240,7 +240,7 @@ This project remains a work in progress and will continue evolving as I learn.
 
 ```text
 GZML Visual Tools
-Version: 0.2
+Version: 0.35
 Author: zer0-j89
 Status: Work In Progress
 ```
@@ -283,3 +283,4 @@ Until an official license is chosen, please provide credit to the original proje
 
 
 5/26/26 - Fixed animations path in gzml-tray.py had accidently left testing logic to my personal system.
+5/29/26 - v0.35 now live! fixed a bunch of logic + added notifications to the users terminal as checks. - Added several new animations including QuantumDrift and PopSlideNstall
