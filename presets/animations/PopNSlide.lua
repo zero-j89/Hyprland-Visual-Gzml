@@ -1,4 +1,4 @@
--- GZML Magnetic Glass Animation Profile
+-- GZML PopNSlide...yo
 
 hl.curve("magnet_pull", { type = "bezier", points = { {0.08, 1.18}, {0.18, 0.92} } })
 hl.curve("soft_escape", { type = "bezier", points = { {0.42, -0.22}, {0.82, 0.18} } })
