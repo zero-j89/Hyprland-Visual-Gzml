@@ -1,8 +1,8 @@
 hl.config({
   animations = { enabled = true },
   general = {
-    gaps_in = 5,
-    gaps_out = 18,
+    gaps_in = 2,
+    gaps_out = 4,
     border_size = 2,
     resize_on_border = true,
     allow_tearing = false,

@@ -1,25 +1,9 @@
 hl.config({
   animations = { enabled = true },
   general = {
-    gaps_in = 5,
-    gaps_out = 20,
+    gaps_in = 2,
+    gaps_out = 4,
     border_size = 2,
-    resize_on_border = true,
-    allow_tearing = false,
-  },
-  decoration = {
-    rounding = 12,
-    blur = {
-      enabled = true,
-      size = 4,
-      passes = 2,
-      new_optimizations = true,
-      ignore_opacity = true,
-      xray = false,
-      vibrancy = 0.45,
-      popups = true,
-      special = true,
-    },
   },
 })
 
