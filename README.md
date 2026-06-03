@@ -84,6 +84,29 @@ Current effects include:
 Wallpaper effects are self-contained scripts and can easily be modified, replaced, or expanded by users.
 
 ---
+
+# Wallpaper Handler Support
+
+Wallpaper effects default to Noctalia Shell.
+
+Each wallpaper effect script contains handler lines similar to:
+
+```bash
+# Noctalia / Quickshell
+qs -p "$QS_DIR" ipc call wallpaper set "$wallpaper_output" "$focused_monitor"
+
+# AWWW
+# awww img --outputs "$focused_monitor" "$wallpaper_output"
+```
+
+If you use AWWW instead of Noctalia:
+
+1. Comment out the Noctalia line.
+2. Uncomment the AWWW line.
+
+This keeps wallpaper effects portable across different Hyprland setups.
+
+---
 <img width="1174" height="990" alt="Screenshot_25-May_23-09-16_31430" src="https://github.com/user-attachments/assets/4e2cd2aa-bdf1-4a3a-8a9d-063aff630b16" />
 
 ### 🌫 Blur Controls
@@ -174,28 +197,7 @@ end)
 
 Future installer releases will automatically create a launcher command, eliminating the need for manual path editing.
 
----
 
-# Wallpaper Handler Support
-
-Wallpaper effects default to Noctalia Shell.
-
-Each wallpaper effect script contains handler lines similar to:
-
-```bash
-# Noctalia / Quickshell
-qs -p "$QS_DIR" ipc call wallpaper set "$wallpaper_output" "$focused_monitor"
-
-# AWWW
-# awww img --outputs "$focused_monitor" "$wallpaper_output"
-```
-
-If you use AWWW instead of Noctalia:
-
-1. Comment out the Noctalia line.
-2. Uncomment the AWWW line.
-
-This keeps wallpaper effects portable across different Hyprland setups.
 
 ---
 
