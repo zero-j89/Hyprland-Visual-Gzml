@@ -141,17 +141,19 @@ case ":$PATH:" in
         ;;
 esac
 
-echo "Add this after your normal Hyprland Lua animation config:"
+echo "Add this after your Hyprland animation.lua config file:"
 echo
 echo '  dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/animations.lua")'
-echo
-echo "Add this after your normal Hyprland Lua decoration config:"
-echo
 echo '  dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/blur.lua")'
 echo
-echo "Add this to your Hyprland Lua startup config:"
+echo "Add this after your normal Hyprland decoration.lua if you have two seperate files:"
 echo
-echo '  hl.exec_cmd("pgrep -f gzml-visual-tools >/dev/null || gzml-visual-tools")'
+echo '  dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/animations.lua")'
+echo '  dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/blur.lua")'
+echo
+echo "Add this to your Startup config:"
+echo
+echo '  hl.exec_cmd("gzml-visual-tools")'
 echo
 echo "You can launch it manually with:"
 echo
