@@ -1,6 +1,6 @@
 
-# GZML Visual Tools  - v0.35 Is Now Live! 
-<img width="941" height="800" alt="Screenshot_25-May_23-08-19_13914" src="https://github.com/user-attachments/assets/7ec0ad9c-c2d3-439b-97e9-2a21649c6cf0" />
+# GZML Visual Tools  - v0.5.0 beta Is Now Live! 
+<img width="1006" height="575" alt="Screenshot_03-Jun_16-25-03_19526" src="https://github.com/user-attachments/assets/3a673a04-c439-414e-b151-52d87a3b3d02" />
 
 
 GZML Visual Tools is a lightweight system tray application for Hyprland that provides quick access to visual customization features without requiring users to constantly edit configuration files.
@@ -259,7 +259,10 @@ Status: Work In Progress
 - Better support for non-Noctalia environments
 
 ---
+<img width="2560" height="1440" alt="Screenshot_03-Jun_16-23-24_26613" src="https://github.com/user-attachments/assets/36da0435-9792-4761-bf26-78bcbee7d4f3" />
+
 <img width="2560" height="1440" alt="Screenshot_25-May_23-03-38_20800" src="https://github.com/user-attachments/assets/dc4f5f03-4b90-47e5-ad10-8c7a0ce2d9f0" />
+
 
 ## Quick Install
 
