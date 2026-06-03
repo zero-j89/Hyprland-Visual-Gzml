@@ -194,6 +194,8 @@ Example using the Hyprland Lua startup system:
 ```lua
 hl.on("hyprland.start", function()
    hl.exec_cmd("pgrep -f gzml-visual-tools >/dev/null || gzml-visual-tools")
+   or
+   hl.exec_cmd("gzml-visual-tools")
 end)
 ```
 
