@@ -504,7 +504,7 @@ hl.config({{
     def build_about_panel(self):
         frame, box = self.panel_frame("About")
         for line in [
-            "GZML 2026 v0.5.0 beta",
+            "GZML 2026 v0.5.5 beta",
             "GTK/AppIndicator tray + Hyprland Lua support",
             "Preset Driven Visual Tools for Hyprland",
         ]:
@@ -818,7 +818,7 @@ hl.config({{
         self.clear_menu(menu)
 
         lines = [
-            "GZML 2026 v0.5.0 beta",
+            "GZML 2026 v0.5.5 beta",
             "Git zer0-j89",
             "GTK/AppIndicator tray &",
             "Hyprland .Lua support",
