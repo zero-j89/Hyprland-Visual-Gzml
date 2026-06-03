@@ -170,17 +170,19 @@ Supports:
 
 GZML Visual Tools was designed around the newer Hyprland Lua configuration system.
 
-To enable Blur and Animation Controls, add the following line after your normal decoration configuration has loaded(or tow files if seperate animation and decoration files exsist).
+To enable Blur and Animation Controls, add the following lines at the end your normal decoration configuration file/s has loaded(place both in both files if seperate animation and decoration files exsist).
 Example:
 
 ```lua
 Animations:
 dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/animations.lua")
-
-Decorations:
 dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/blur.lua")
 
-Place both at the end of the coressponding file/s
+Decorations:
+dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/animations.lua")
+dofile(os.getenv("HOME") .. "/.config/gzml-visual-tools/hypr/blur.lua")
+
+Place both at the end of the above file/s
 
 
 ---
