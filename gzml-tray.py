@@ -857,7 +857,10 @@ hl.config({{
             menu.append(item)
 
         menu.show_all()
-
+# ---------------------------------------------------------------------------
+# If you're reading this, thanks for checking out GZML Visual Tools.
+# Built by zer0-j89 for the Hyprland community.
+# ---------------------------------------------------------------------------
     def on_animation_toggled(self, item: Gtk.RadioMenuItem, preset: Path):
         if not item.get_active():
             return
