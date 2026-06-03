@@ -273,6 +273,11 @@ git clone https://github.com/zero-j89/Hyprland-Visual-Gzml.git
 cd Hyprland-Visual-Gzml
 chmod +x installer/install.sh
 ./installer/install.sh
+
+for updater use
+cd ~/Projects/gzml-plugin/gzml-visual-tools
+chmod +x installer/update.sh
+./installer/update.sh
 ```
 
 # License
