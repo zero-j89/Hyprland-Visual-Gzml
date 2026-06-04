@@ -1,5 +1,5 @@
 
-# GZML Visual Tools  - v0.5.5 beta Is Now Live!
+# GZML Visual Tools  - v0.5.6 beta Is Now Live!
 <img width="1006" height="575" alt="Screenshot_03-Jun_16-25-03_19526" src="https://github.com/user-attachments/assets/3a673a04-c439-414e-b151-52d87a3b3d02" />
 
 
