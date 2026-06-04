@@ -28,6 +28,7 @@ REQUIRED_PACKAGES=(
     jq
     imagemagick
     libnotify
+    git
 )
 
 MISSING_PACKAGES=()
@@ -84,6 +85,58 @@ exec "$INSTALL_DIR/gzml-tray.py"
 EOF
 
 chmod +x "$BIN_DIR/gzml-visual-tools"
+
+echo "Creating updater launcher..."
+
+cat > "$BIN_DIR/gzml-visual-tools-update" << 'EOF'
+#!/usr/bin/env bash
+
+set -e
+
+APP_NAME="GZML Visual Tools"
+REPO_URL="https://github.com/zero-j89/Hyprland-Visual-Gzml.git"
+TMP_DIR="$(mktemp -d)"
+
+cleanup() {
+    rm -rf "$TMP_DIR"
+}
+trap cleanup EXIT
+
+echo "Updating $APP_NAME..."
+echo
+
+if ! command -v git >/dev/null 2>&1; then
+    echo "Error: git is required to update $APP_NAME."
+    exit 1
+fi
+
+echo "Stopping running instance..."
+pkill -f gzml-tray.py 2>/dev/null || true
+pkill -f gzml-visual-tools 2>/dev/null || true
+
+echo "Downloading latest version..."
+git clone --depth=1 "$REPO_URL" "$TMP_DIR/Hyprland-Visual-Gzml"
+
+cd "$TMP_DIR/Hyprland-Visual-Gzml"
+
+if [[ ! -f installer/install.sh ]]; then
+    echo "Error: installer/install.sh not found in downloaded repo."
+    exit 1
+fi
+
+echo "Running installer..."
+chmod +x installer/install.sh
+./installer/install.sh
+
+echo
+echo "$APP_NAME updated successfully."
+echo
+echo "Launch with:"
+echo
+echo "  gzml-visual-tools"
+EOF
+
+chmod +x "$BIN_DIR/gzml-visual-tools-update"
 
 echo "Creating generated Hyprland config files..."
 
@@ -158,3 +211,7 @@ echo
 echo "You can launch it manually with:"
 echo
 echo "  gzml-visual-tools"
+echo
+echo "You can update it with:"
+echo
+echo "  gzml-visual-tools-update"
