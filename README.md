@@ -278,7 +278,7 @@ To update type:
 ```
 gzml-visual-tools-update 
 ```
-Directly in your terminal if you version doesn't match the repo header version. 
+Directly in your terminal if your version doesn't match the repo header version. 
 
 # License
 
