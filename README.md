@@ -224,7 +224,7 @@ The goal is:
 
 My name is J (zer0-j89).
 
-I am primarily a mycologist and technology enthusiast who began my Linux journey with Arch Linux roughly six months ago.
+I am primarily a mycologist and technology enthusiast who began my Linux journey Arch Linux right out the gate snd fell in love ever since.
 
 GZML Visual Tools started as a personal learning project to explore:
 
