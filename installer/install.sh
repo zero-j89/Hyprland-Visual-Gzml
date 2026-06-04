@@ -213,3 +213,8 @@ echo
 echo "You can update it with:"
 echo
 echo "  gzml-visual-tools-update"
+if pgrep -f "$INSTALL_DIR/gzml-tray.py" >/dev/null 2>&1; then
+    echo "GZML Visual Tools already running."
+else
+    setsid -f "$BIN_DIR/gzml-visual-tools" >/dev/null 2>&1
+fi
