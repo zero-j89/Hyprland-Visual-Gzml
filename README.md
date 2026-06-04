@@ -274,9 +274,11 @@ cd Hyprland-Visual-Gzml
 chmod +x installer/install.sh
 ./installer/install.sh
 ```
+To update type:
 ```
-to update type  gzml-visual-tools-update    in your terminal after initial install
+gzml-visual-tools-update 
 ```
+Directly in your terminal if you version doesn't match the repo header version. 
 
 # License
 
