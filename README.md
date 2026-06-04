@@ -280,7 +280,7 @@ gzml-visual-tools-update
 ```
 Directly in your terminal if your version doesn't match the repo header version. 
 
-***Note thst if you installed prior to beta v0.5.5 you will need to run the priginal repo clone line above begore the updater will work. 
+***Note if installed prior to beta v0.5.5 you will need to run the original repo clone line above before the updater will work. 
 
 # License
 
