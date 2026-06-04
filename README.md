@@ -273,7 +273,8 @@ git clone https://github.com/zero-j89/Hyprland-Visual-Gzml.git
 cd Hyprland-Visual-Gzml
 chmod +x installer/install.sh
 ./installer/install.sh
-
+```
+```
 to update type  gzml-visual-tools-update    in your terminal after initial install
 ```
 
