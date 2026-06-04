@@ -111,9 +111,7 @@ if ! command -v git >/dev/null 2>&1; then
 fi
 
 echo "Stopping running instance..."
-pkill -f gzml-tray.py 2>/dev/null || true
-pkill -f gzml-visual-tools 2>/dev/null || true
-
+pkill -f "$HOME/.local/share/gzml-visual-tools/gzml-tray.py" 2>/dev/null || true
 echo "Downloading latest version..."
 git clone --depth=1 "$REPO_URL" "$TMP_DIR/Hyprland-Visual-Gzml"
 
