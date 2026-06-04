@@ -107,7 +107,7 @@ class GZMLTray:
             created_files.append("blur.lua")
 
         # Generated files are created silently.
-        # Startup and dofile instructions are handled by the installer/README.
+        # Startup and dofile instructions are handled by the installer/README. Remember you removed logic.
 
     def write_blur_config(self, level: int):
         GZML_CONFIG_DIR.mkdir(parents=True, exist_ok=True)
