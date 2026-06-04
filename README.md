@@ -298,4 +298,4 @@ Until an official license is chosen, please provide credit to the original proje
 
 5/29/26 - v0.35 now live! fixed a bunch of logic + added notifications to the users terminal as checks. - Added several new animations including QuantumDrift and PopSlideNstall
 
-6/3/26 - Beta is now live!! New features and logic changes as wella s mroe animations.
+6/3/26 - Beta is now live!! New features and logic changes + more animations!
