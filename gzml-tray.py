@@ -112,7 +112,7 @@ class GZMLTray:
                 "GZML Visual Tools Setup",
                 "Generated "
                 + ", ".join(created_files)
-                + ". Add the dofile lines from the generated files to your hyprland.lua.",
+                + ". Add hl.exec_cmd('gzml-visual-tools') to startup.",
             )
 
     def write_blur_config(self, level: int):
@@ -553,7 +553,7 @@ hl.config({{
 
     def on_control_preset_switch(self, switch: Gtk.Switch, _param, title: str, preset: Path, animations: bool):
         # Switches are used as visual active selectors. Turning a switch ON activates that preset.
-        # Turning it OFF manually is ignored for now because these categories are single-active states.
+        # Turning it OFF manually is ignored for now because these categories are single-active states member berries.
         if not switch.get_active():
             return
 
