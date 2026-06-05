@@ -60,7 +60,7 @@ Load and switch between Hyprland animation presets directly from the tray.
 
 ### 🖼 Wallpaper Effects
 
-Apply ImageMagick-powered wallpaper effects directly from the tray.
+Apply ImageMagick or awww powered wallpaper effects directly from the tray!
 
 Current effects include:
 
