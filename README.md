@@ -170,7 +170,7 @@ Supports:
 
 GZML Visual Tools was designed around the newer Hyprland Lua configuration system.
 
-To enable Blur and Animation Controls, add the following lines at the end your normal decoration configuration file/s has loaded(place both in both files if seperate animation and decoration files exsist).
+To enable Blur and Animation Controls, add the following lines at the end your normal decoration configuration file/s(place both in both files if seperate animation and decoration files exsist).
 Example:
 
 ```lua
@@ -199,7 +199,6 @@ hl.on("hyprland.start", function()
 end)
 ```
 
-Future installer releases will automatically create a launcher command, eliminating the need for manual path editing.
 
 
 
