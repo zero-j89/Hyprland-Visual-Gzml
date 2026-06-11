@@ -178,7 +178,7 @@ hl.config({{
         )
 
     def show_status_menu_left_click(self, icon):
-        # Kept as a fallback helper, but left click now opens the control center.
+        # Kept as a fallback helper, but left click now opens the control center..or it should.
         self.show_status_menu(icon, 1, Gtk.get_current_event_time())
 
     def toggle_control_center(self, *_):
@@ -492,7 +492,7 @@ hl.config({{
     def build_about_panel(self):
         frame, box = self.panel_frame("About")
         for line in [
-            "GZML 2026 v0.5.6 beta",
+            "GZML 2026 v0.6 beta",
             "GTK/AppIndicator tray + Hyprland Lua support",
             "Preset Driven Visual Tools for Hyprland",
         ]:
@@ -540,7 +540,6 @@ hl.config({{
         self.on_preset_clicked(button, preset)
 
     def on_control_preset_switch(self, switch: Gtk.Switch, _param, title: str, preset: Path, animations: bool):
-        # Switches are used as visual active selectors. Turning a switch ON activates that preset.
         # Turning it OFF manually is ignored for now because these categories are single active states member berries.
         if not switch.get_active():
             return
@@ -804,7 +803,7 @@ hl.config({{
         self.clear_menu(menu)
 
         lines = [
-            "GZML 2026 v0.5.6 beta",
+            "GZML 2026 v0.6 beta",
             "Git zer0-j89",
             "GTK/AppIndicator tray &",
             "Hyprland .Lua support",
