@@ -766,7 +766,7 @@ hl.config({{
         active_size = self.read_int_state(ACTIVE_BORDER_FILE, 2)
         group = None
 
-        for size in range(1, 11):
+        for size in range(0, 11):
             label = f"{size}px"
             item = Gtk.RadioMenuItem.new_with_label_from_widget(group, label)
 
